@@ -100,3 +100,8 @@
 // quit 表示退出的意思  :q
 
 // 可以回退到指定版本（对应的代码） git reset --hard 提交的id（唯一标识）
+
+// git init
+// git add 文件名称 / git add .
+// git commit -m '描述信息一定要简洁'
+// 上两句话等价于：git commit -a -m '描述信息'（条件：是要确保当前文件已经在暂存区里面了）
