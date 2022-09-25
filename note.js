@@ -139,4 +139,17 @@
 
 // echo "# qdjy51" >> README.md   -  新建 README.md 文件的同时写入 "# qdjy51"
 
-// master 比较特殊，在之前的某一年的圣诞节把名字改了：main
+// master 比较特殊，受：“Black Lives Matter”，缩写为“BLM”，黑人人权运动，意为“黑人的命也是命” 影响
+// 2020年10月1号 把名字改成了 main
+// 推荐阅读：https://blog.csdn.net/H176Nhx7/article/details/111350550
+
+// git remote add origin https://github.com/zlc1000/qdjy51.git
+//      远程  添加
+// origin译为：源; 此处表示一个别名的意思
+// 上句命令的意思是：将本地仓库和远程仓库地址进行关联
+// 如何查看当前仓库关联的仓库是什么：git remote -v
+
+// git push -u origin main
+// 添加完远程仓库的关联之后，就要朝仓库进行推送了
+// 解释：如果是第一个提交到仓库的话，要写全了：-u 表示是第一次提交 origin 是指明提交到哪个仓库 main 是表示朝这个仓库的哪个房间
+// 如果是第二次提交的话，只需要执行：git push 就好了
