@@ -148,8 +148,18 @@
 // origin译为：源; 此处表示一个别名的意思
 // 上句命令的意思是：将本地仓库和远程仓库地址进行关联
 // 如何查看当前仓库关联的仓库是什么：git remote -v
+// 如果你关联的地址不是你想关联的，可以删掉：git remote remove origin
 
 // git push -u origin main
 // 添加完远程仓库的关联之后，就要朝仓库进行推送了
 // 解释：如果是第一个提交到仓库的话，要写全了：-u 表示是第一次提交 origin 是指明提交到哪个仓库 main 是表示朝这个仓库的哪个房间
 // 如果是第二次提交的话，只需要执行：git push 就好了
+
+// https://github.com/settings/keys 路径 generate 表示是生成的意思
+// 命令：ssh-keygen -t ed25519 -C "写自己的邮箱"
+// 私钥和公钥默认存放的位置：C:\Users\lianchang\.ssh
+
+// 测试一下私钥公钥是否正确（github比较慢，请去 gitee 码云）
+
+// 测试：ssh -T git@github.com   /    ssh -T git@gitee.com
+// 不行的话，换用热点   换别人的热点
