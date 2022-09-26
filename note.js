@@ -222,3 +222,46 @@
 // conflict 冲突
 
 // 将本地功能分支，朝远程仓库进行推送： git push -u origin login
+
+// 查看远程仓库的所有的分支：git remote show origin
+
+// 同桌A先去邀请同桌B作为开发者（同桌B会收一个激活邮件），同桌A把他自己的仓库的地址https协议给同桌B，git clone 自行体验看下默认取的是哪个分支
+// 现在，请同桌B去拉同桌A的功能分支，再去修改一点东西，再去提交，最后同桌A去看能否看到同桌B提交上来的东西
+
+// git checkout 分支
+// git checkout -b 新分支的名称 远程仓库的别名/远程仓库分支名称
+
+// 在某个分支里面拉取最新的代码，同桌A去提交一点东西，同桌B去拉取
+
+// git pull (pull 拉取、往下拉)
+// git push (push 推、往上推)
+
+// 删除远程分支：git push origin --delete 你要删除的远程仓库分支的名称（当了解）
+
+/**
+ *
+ * 总结：
+ * git init
+ * git add .
+ * git commit -m '描述信息'
+ * git remote add origin 远程仓库的地址(添加本地工程和远程仓库的连接)
+ * git push -u origin master
+ *
+ * git branch user/login/role/userinfo
+ * git checkout user/login/role/userinfo
+ *
+ * git checkout -b 你要创建的分支名称
+ * git add .
+ * git commit -m 'user 开发了用户相关的功能'
+ * git push -u origin user
+ * git add .
+ * git commit -m '新加了xxx功能'
+ * git push
+ *
+ * git checkout master
+ * git merge user
+ * git push
+ *
+ * 小工具很好学，但是你要体验
+ *
+ */
