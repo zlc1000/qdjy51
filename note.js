@@ -208,4 +208,5 @@
 
 // 查看所有分支的列表：git branch
 // 创建新分支：git branch 分支的名称 (新分支的代码和刚刚创建的那个分支代码是一样)
-// 切换分支：git checkout 分支的名称 （）
+// 切换分支：git checkout 分支的名称 （要求是：切换分支之前最好把代码提交一下 不停的add commit）
+// 快速创建分支和切换动作：git checkout -b 分支的名称
